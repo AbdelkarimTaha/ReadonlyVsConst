@@ -1,11 +1,15 @@
 # Readonly Vs Const
 Difference between readonly and const keyword in C#
 
+
+Const
+-----
 const keyword is used to declare constant fields and constant local. The value of the constant field is the same throughout the program or in other words, once the constant field is assigned the value of this field is not be changed. In C#, constant fields and locals are not variables, a constant is a number, string, null reference, boolean values.
 
 
 Example:
 --------
+
 class GFG {
  
     // Constant fields
@@ -22,10 +26,20 @@ class GFG {
 }
 
 Output: 
--------
+--------
 The value of myvar: 10
+
 The value of str: GeeksforGeeks
+
+
+
+
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Readonly 
+--------
 you can use a readonly keyword to declare a readonly variable. This readonly keyword shows that you can assign the variable only when you declare a variable or in a constructor of the same class in which it is declared.
 
 Example:
